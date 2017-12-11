@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.tianqiujie'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -8,4 +11,5 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
+    buildToolsVersion '26.0.2'
 }

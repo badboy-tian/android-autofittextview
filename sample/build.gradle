@@ -12,4 +12,5 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
+    buildToolsVersion '26.0.2'
 }
